@@ -9,9 +9,9 @@ st.set_page_config(page_title=PAGE_TITLE, layout=PAGE_LAYOUT)
 # — Core imports —
 from db import init_db
 from auth import verify_token
-from pages.auth import signup_page, login_page
-from pages.predict import predict_page
-from pages.history import history_page  # ← import your new history page
+from components.auth import signup_page, login_page
+from components.predict import predict_page
+from components.history import history_page  # ← import your new history page
 
 def logout():
     """
