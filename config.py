@@ -51,7 +51,7 @@ VARIETIES = ['ADT45', 'IR20', 'KarnatakaPonni', 'Onthanel', 'Ponni', 'Surya', 'Z
 # -----------------------------------------------------------------------------
 # Gemini LLM API
 # -----------------------------------------------------------------------------
-# Your Gemini 1.5 “flash” API key (override via env)
+# Your Gemini 2.0 "flash" API key (override via env)
 GEMINI_API_KEY           = "AIzaSyCSqf83q824QAwTtH0lIismTFg_Cb0Gq50"
 if not GEMINI_API_KEY:
     raise RuntimeError("❌ GEMINI_API_KEY not set. Export your API key.")
